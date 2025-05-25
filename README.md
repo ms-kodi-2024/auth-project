@@ -8,9 +8,10 @@ Simple Node.js app using Google OAuth 2.0 and Passport.js.
    yarn install
 
 2. Add `.env`:
-   GOOGLE_CLIENT_ID=...
-   GOOGLE_CLIENT_SECRET=...
-   GOOGLE_CALLBACK_URL=http://localhost:8000/auth/google/callback
+   GOOGLE_CLIENT_ID=...  
+   GOOGLE_CLIENT_SECRET=...  
+   GOOGLE_CALLBACK_URL=http://localhost:8000/auth/google/callback  
+	 SESSION_SECRET=random_string_here
 
 3. Run:
    yarn start
